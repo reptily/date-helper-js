@@ -13,12 +13,12 @@ const DateHelper = require('./date-helper.en.js');
 
 for Vue.js
 ```js
-import DateHelper from '~/assert/date-helper';
+import DateHelper from '~/assert/date-helper.en.js';
 ```
 
 Use:
 ```js
-const DateHelper = require('./date-helper');
+const DateHelper = require('./date-helper.en.js');
 
 let date = new DateHelper('Wed Mar 3 2022 16:02:09 GMT+0300');
 console.log(date.format('d.m.y')); // print 03.03.22
